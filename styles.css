@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #221f2f;
+    overflow: hidden;
+}
+
+.main_container {
+    width: 40rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.converter {
+    
+}
+
+.valute_input {
+    margin: 10% 0;
+}
+
+.input_place {
+    height: 70px;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 0 15px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999;
+    transition: all 0.3s ease;
+}
+
+select {
+    color: #fff;
+    font-size: 2rem;
+    width: 30%;
+    border: 1px solid #999;
+    height: 70px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 15px;
+    background: transparent;
+}
+
+select option{
+    color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
